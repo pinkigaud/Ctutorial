@@ -1,12 +1,12 @@
 // Ctreate a string firstName & lastName  to stor details of user & print all the characters using  a loop.
 #include<stdio.h>
-void printString(char str[]);
+void printString(char arr[]);
 int main(){
     char firstName[] = "Pinki";
     char lastName[] = "Gaud";
     printString(firstName);
     printString(lastName);
-    
+     
     return 0;
 }
 void printString(char arr[]){
