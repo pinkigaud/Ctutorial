@@ -14,7 +14,7 @@ int main(){
     }
     else{
         printf("The character is not present in the string.");
-    }
+    } 
     return 0;
 }
 int isPresent(char str[], char c){
